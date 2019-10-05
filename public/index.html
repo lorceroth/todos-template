@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todos Template</title>
+    <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title is-1">
+                <i class="logo far fa-check-square"></i> Todos Template
+            </h1>
+            <h2 class="subtitle is-4">A minimal todos application template for sandbox purposes.</h2>
+        </header>
+
+        <main role="main">
+            <div class="new-todo">
+                <!-- <div class="notification is-danger">
+                    <button class="delete"></button>
+                    An error occured while trying to save.
+                </div> -->
+
+                <div class="field is-grouped">
+                    <div class="control" style="flex: 1">
+                        <input class="input" type="text" placeholder="What's up next?" />
+                        <!-- <span class="help is-danger">
+                            A validation error occured for this field.
+                        </span> -->
+                    </div>
+
+                    <div class="control" style="flex: none">
+                        <button class="button is-info" type="button">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="todo-items">
+                <div class="box todo-item">
+                    <div class="columns is-customized">
+                        <div class="column">
+                            <label class="switch">
+                                <input class="checkbox" type="checkbox" />
+                                <span class="track"></span>
+                                <span class="lever"></span>
+                            </label>
+                        </div>
+
+                        <div class="column is-full">
+                            <p class="todo-description">
+                                Choose a framework to play around with
+                            </p>
+                        </div>
+
+                        <div class="column">
+                            <button class="button is-light is-small" type="button" title="Remove">
+                                Remove
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box todo-item">
+                    <div class="columns is-customized">
+                        <div class="column">
+                            <label class="switch">
+                                <input class="checkbox" type="checkbox" />
+                                <span class="track"></span>
+                                <span class="lever"></span>
+                            </label>
+                        </div>
+
+                        <div class="column is-full">
+                            <p class="todo-description">
+                                Have fun! 😊
+                            </p>
+                        </div>
+
+                        <div class="column">
+                            <button class="button is-light is-small" type="button" title="Remove">
+                                Remove
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="title is-4">
+                Completed
+            </h2>
+
+            <div class="todo-items">
+                <div class="box todo-item">
+                    <div class="columns is-customized">
+                        <div class="column">
+                            <label class="switch">
+                                <input class="checkbox" type="checkbox" checked />
+                                <span class="track"></span>
+                                <span class="lever"></span>
+                            </label>
+                        </div>
+
+                        <div class="column is-full">
+                            <p class="todo-description">
+                                Clone this project from <code>https://github.com/lorceroth/todos-template</code>
+                            </p>
+                        </div>
+
+                        <div class="column">
+                            <button class="button is-light is-small" type="button" title="Remove">
+                                Remove
+                            </button>
+                        </div>
+                    </div>
+
+                    <p class="has-text-grey-light">
+                        Completed 1 minute ago
+                    </p>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
