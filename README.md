@@ -1,4 +1,4 @@
-# ✅ Todos Template
+# Todos Template
 
 A ready-made template for simple todo applications. This template is perfect for trying out frameworks and perform classic CRUD-operations.
 
