@@ -3,7 +3,7 @@
     "scripts": {
         "build": "node-sass public/app.scss public/app.css",
         "watch": "node-sass public/app.scss public/app.css -w",
-        "build:production": "node-sass public/app.scss public/app.css --outputStyle compressed",
+        "build:production": "node-sass public/app.scss public/app.css --output-style compressed",
         "copy:assets": "cp -r node_modules/@fortawesome/fontawesome-free/webfonts/ public/fonts",
         "serve": "http-server"
     },
